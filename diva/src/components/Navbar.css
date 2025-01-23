@@ -1,0 +1,31 @@
+/* Mobile Menu Container */
+.menu-open {
+    animation: circle-open 0.4s ease-in-out forwards;
+    clip-path: circle(0% at top right); 
+  }
+  
+  .menu-close {
+    animation: circle-close 0.4s ease-in-out forwards;
+    clip-path: circle(calc(100vmax + 100px) at top right);
+  }
+  
+  /* Nav Open and Close effect */
+  @keyframes circle-open {
+    0% {
+      clip-path: circle(0% at top right);
+    }
+    100% {
+      clip-path: circle(calc(100vmax + 100px) at top right);
+    }
+  }
+  
+  @keyframes circle-close {
+    0% {
+      clip-path: circle(calc(100vmax + 100px) at top right);
+    }
+    100% {
+      clip-path: circle(0% at top right);
+    }
+  }
+  
+ 
