@@ -13,18 +13,15 @@ const Contact = () => {
       <div className="text-center mb-6">
         {/* Phone Number */}
         <p className="text-lg font-poppins text-gray-800">
-          Phone: {" "}
+          Phone:{" "}
           <a href="tel:+263771386552" className=" font-regular">
-            +263 771 386 552
+            +27609876335
           </a>
         </p>
         {/* Email Address */}
         <p className="text-lg font-poppins text-gray-800">
-          Email: {" "}
-          <a
-            href="mailto:daviesgotosa10@gmail.com"
-            className="font-regular"
-          >
+          Email:{" "}
+          <a href="mailto:daviesgotosa10@gmail.com" className="font-regular">
             daviesgotosa10@gmail.com
           </a>
         </p>
