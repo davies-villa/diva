@@ -61,6 +61,16 @@ const Contact = () => {
         >
           <FaFacebook />
         </a>
+        {/* Github */}
+        <a
+          href="https://github.com/davies-villa/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white bg-purple-500 rounded-full p-4 hover:text-purple-500 hover:bg-white text-2xl"
+          aria-label="GitHub"
+        >
+          <FaGithub />
+        </a>
       </div>
     </div>
   );
