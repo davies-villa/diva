@@ -93,7 +93,7 @@ const Navbar = () => {
           menuOpen ? "menu-open" : "menu-close"
         }`}
       >
-        <ul className="text-center space-y-6 text-xl font-semibold">
+        <ul className="text-center space-y-6 text-lg font-semibold">
           {["about", "services", "projects", "contact"].map((section) => (
             <li key={section}>
               <a
